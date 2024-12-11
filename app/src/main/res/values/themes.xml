@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Theme -->
+    <style name="Theme.RuneScapeMarketWatch" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/onPrimary</item>
+        <item name="windowSplashScreenBackground">@color/primary</item>
+    </style>
+
+    <!-- Splash Screen Theme -->
+    <style name="Theme.RuneScapeMarketWatch.SplashScreen" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="windowSplashScreenBackground">@drawable/medieval_texture</item>
+        <item name="windowSplashScreenIcon">@drawable/ic_logo</item>
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+        <item name="postSplashScreenTheme">@style/Theme.RuneScapeMarketWatch</item>
+    </style>
+</resources>
